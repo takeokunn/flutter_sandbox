@@ -24,6 +24,8 @@ jobs:
         with:
           channel: stable
           flutter-version-file: pubspec.yaml
+      - name: Copy env
+        run: cp .env.example .env
       - name: Install packages
         run: flutter pub get
       - name: Analyze

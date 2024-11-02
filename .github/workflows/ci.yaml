@@ -22,7 +22,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: subosito/flutter-action@v2.3.0
         with:
-          channel: stable
           flutter-version-file: pubspec.yaml
       - name: Copy env
         run: cp .env.example .env

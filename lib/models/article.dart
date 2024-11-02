@@ -1,7 +1,6 @@
 import 'package:flutter_sandbox/models/user.dart';
 
 class Article {
-  // コンストラクタ
   Article({
     required this.title,
     required this.user,
@@ -11,7 +10,6 @@ class Article {
     required this.url,
   });
 
-  // プロパティ
   final String title;
   final User user;
   final int likesCount;
